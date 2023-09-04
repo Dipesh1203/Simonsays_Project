@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.btn-container{
+    width:500px;
+    height:520px;
+    background-color: rgba(0, 255, 255, 0.664);
+    border-radius: 20px;
+    margin: auto;
+    
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid black;
+    
+}
+.red{
+    background-color: rgb(175, 7, 7);
+}
+.green{
+    background-color: rgb(7, 160, 7);
+}
+.yellow{
+    background-color: rgb(150, 150, 6);
+}
+.purple{
+    background-color: rgb(141, 8, 141);
+}
+.flash{
+    background-color: rgb(255,255,255);
+}
+.redflash{
+    background-color: rgb(252, 11, 11);
+}
+.yellowflash{
+    background-color: rgb(255, 255, 0);
+}
+.purpleflash{
+    background-color: rgb(255, 7, 255);
+}
+.greenflash{
+    background-color: rgb(44, 255, 44);
+}
+.userFlash{
+    background-color: rgb(43, 255, 0);
+}
